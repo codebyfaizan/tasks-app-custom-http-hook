@@ -21,7 +21,7 @@ function App() {
 
     fetchTasks(
       {
-        url: "https://react-tasks-http-877b3-default-rtdb.firebaseio.com/tasks.json",
+        url: "https://react-tasks-https-default-rtdb.firebaseio.com/tasks.json",
       },
       transformTasks
     );

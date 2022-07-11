@@ -16,7 +16,7 @@ function NewTask(props) {
   async function enterTaskHandler(taskText) {
     sendTasksRequest(
       {
-        url: "https://react-tasks-http-877b3-default-rtdb.firebaseio.com/tasks.json",
+        url: "https://react-tasks-https-default-rtdb.firebaseio.com/tasks.json",
         method: "POST",
         headers: {
           "Content-Type": "application/json",
